@@ -1,0 +1,76 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  2 20.9M    2  591k    0     0   621k      0  0:00:34 --:--:--  0:00:34  621k  8 20.9M    8 1839k    0     0   915k      0  0:00:23  0:00:02  0:00:21  915k 14 20.9M   14 3200k    0     0  1069k      0  0:00:20  0:00:02  0:00:18 1069k 21 20.9M   21 4655k    0     0  1171k      0  0:00:18  0:00:03  0:00:15 1171k 28 20.9M   28 6127k    0     0  1235k      0  0:00:17  0:00:04  0:00:13 1235k 35 20.9M   35 7711k    0     0  1297k      0  0:00:16  0:00:05  0:00:11 1426k 43 20.9M   43 9327k    0     0  1339k      0  0:00:16  0:00:06  0:00:10 1510k 50 20.9M   50 10.5M    0     0  1354k      0  0:00:15  0:00:07  0:00:08 1527k 57 20.9M   57 12.1M    0     0  1386k      0  0:00:15  0:00:08  0:00:07 1557k 65 20.9M   65 13.8M    0     0  1421k      0  0:00:15  0:00:09  0:00:06 1605k 72 20.9M   72 15.2M    0     0  1427k      0  0:00:15  0:00:10  0:00:05 1581k 80 20.9M   80 16.7M    0     0  1437k      0  0:00:14  0:00:11  0:00:03 1574k 87 20.9M   87 18.4M    0     0  1451k      0  0:00:14  0:00:12  0:00:02 1605k 95 20.9M   95 19.9M    0     0  1463k      0  0:00:14  0:00:13  0:00:01 1600k100 20.9M  100 20.9M    0     0  1464k      0  0:00:14  0:00:14 --:--:-- 1557k
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 3s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 7.19.1 -> 7.20.6
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.20.6>
+npm notice Run `npm install -g npm@7.20.6` to update!
+npm notice 
+
+added 245 packages, and audited 246 packages in 1m
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> Soft-Shadow@1.0.0 start
+> node index.js
+
+Soft Music is connected to discord!
+MinigetError: Status code: 410
+    at ClientRequest.<anonymous> (/home/minecraft/multicraft/servers/server208959/node_modules/miniget/dist/index.js:210:27)
+    at Object.onceWrapper (node:events:514:26)
+    at ClientRequest.emit (node:events:394:28)
+    at HTTPParser.parserOnIncomingClient (node:_http_client:621:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+    at HTTPParser.execute (<anonymous>)
+    at TLSSocket.socketOnData (node:_http_client:487:22)
+    at TLSSocket.emit (node:events:394:28)
+    at addChunk (node:internal/streams/readable:312:12)
+    at readableAddChunk (node:internal/streams/readable:287:9) {
+  statusCode: 410
+}
+Error: No video id found: https://music.youtube.com/playlist?list=OLAK5uy_nY3d03DBEChy_QN1MjnMmA1V74JhL-HoE&feature=share
+    at Object.exports.getURLVideoID (/home/minecraft/multicraft/servers/server208959/node_modules/ytdl-core/lib/url-utils.js:36:11)
+    at Object.exports.getVideoID (/home/minecraft/multicraft/servers/server208959/node_modules/ytdl-core/lib/url-utils.js:61:20)
+    at exports.<computed> (/home/minecraft/multicraft/servers/server208959/node_modules/ytdl-core/lib/info.js:476:29)
+    at Function.from (/home/minecraft/multicraft/servers/server208959/music/track.js:74:22)
+    at module.exports (/home/minecraft/multicraft/servers/server208959/helpers/play.js:45:28)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.<anonymous> (/home/minecraft/multicraft/servers/server208959/index.js:32:5)
+Error: No video id found: https://youtube.com/playlist?list=OLAK5uy_nY3d03DBEChy_QN1MjnMmA1V74JhL-HoE
+    at Object.exports.getURLVideoID (/home/minecraft/multicraft/servers/server208959/node_modules/ytdl-core/lib/url-utils.js:36:11)
+    at Object.exports.getVideoID (/home/minecraft/multicraft/servers/server208959/node_modules/ytdl-core/lib/url-utils.js:61:20)
+    at exports.<computed> (/home/minecraft/multicraft/servers/server208959/node_modules/ytdl-core/lib/info.js:476:29)
+    at Function.from (/home/minecraft/multicraft/servers/server208959/music/track.js:74:22)
+    at module.exports (/home/minecraft/multicraft/servers/server208959/helpers/play.js:45:28)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.<anonymous> (/home/minecraft/multicraft/servers/server208959/index.js:32:5)
+/home/minecraft/multicraft/servers/server208959/node_modules/discord.js/src/rest/RequestHandler.js:298
+      throw new DiscordAPIError(data, res.status, request);
+            ^
+
+DiscordAPIError: Unknown Message
+    at RequestHandler.execute (/home/minecraft/multicraft/servers/server208959/node_modules/discord.js/src/rest/RequestHandler.js:298:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async RequestHandler.push (/home/minecraft/multicraft/servers/server208959/node_modules/discord.js/src/rest/RequestHandler.js:50:14)
+    at async MessageManager.react (/home/minecraft/multicraft/servers/server208959/node_modules/discord.js/src/managers/MessageManager.js:193:5)
+    at async Message.react (/home/minecraft/multicraft/servers/server208959/node_modules/discord.js/src/structures/Message.js:690:5) {
+  method: 'put',
+  path: '/channels/876189391897370636/messages/877135047147290624/reactions/%F0%9F%8E%B6/@me',
+  code: 10008,
+  httpStatus: 404,
+  requestData: { json: undefined, files: [] }
+}

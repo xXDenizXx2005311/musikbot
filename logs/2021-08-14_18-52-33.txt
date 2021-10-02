@@ -1,0 +1,35 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  2 20.9M    2  591k    0     0   653k      0  0:00:32 --:--:--  0:00:32  652k 12 20.9M   12 2688k    0     0  1394k      0  0:00:15  0:00:01  0:00:14 1394k 21 20.9M   21 4512k    0     0  1572k      0  0:00:13  0:00:02  0:00:11 1571k 28 20.9M   28 6063k    0     0  1573k      0  0:00:13  0:00:03  0:00:10 1572k 35 20.9M   35 7583k    0     0  1554k      0  0:00:13  0:00:04  0:00:09 1554k 42 20.9M   42 9071k    0     0  1548k      0  0:00:13  0:00:05  0:00:08 1712k 50 20.9M   50 10.4M    0     0  1560k      0  0:00:13  0:00:06  0:00:07 1624k 58 20.9M   58 12.2M    0     0  1589k      0  0:00:13  0:00:07  0:00:06 1599k 67 20.9M   67 14.0M    0     0  1621k      0  0:00:13  0:00:08  0:00:05 1659k 76 20.9M   76 15.9M    0     0  1655k      0  0:00:12  0:00:09  0:00:03 1753k 86 20.9M   86 18.0M    0     0  1700k      0  0:00:12  0:00:10  0:00:02 1879k 96 20.9M   96 20.2M    0     0  1749k      0  0:00:12  0:00:11  0:00:01 2008k100 20.9M  100 20.9M    0     0  1760k      0  0:00:12  0:00:12 --:--:-- 2070k
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 3s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 7.19.1 -> 7.20.6
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.20.6>
+npm notice Run `npm install -g npm@7.20.6` to update!
+npm notice 
+
+added 245 packages, and audited 246 packages in 1m
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> Soft-Shadow@1.0.0 start
+> node index.js
+
+Anime Bot is connected to discord!
+/home/minecraft/multicraft/servers/server208959/index.js:22
+  const channel_id = db.get(`guild_${message.guild.id}`).channelId
+                                                        ^
+
+TypeError: Cannot read property 'channelId' of null
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server208959/index.js:22:57)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

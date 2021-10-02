@@ -1,0 +1,33 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 20.9M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  5 20.9M    5 1103k    0     0   756k      0  0:00:28  0:00:01  0:00:27  756k 10 20.9M   10 2287k    0     0   932k      0  0:00:23  0:00:02  0:00:21  931k 15 20.9M   15 3392k    0     0   984k      0  0:00:21  0:00:03  0:00:18  983k 20 20.9M   20 4447k    0     0  1007k      0  0:00:21  0:00:04  0:00:17 1007k 26 20.9M   26 5599k    0     0  1033k      0  0:00:20  0:00:05  0:00:15 1129k 31 20.9M   31 6831k    0     0  1065k      0  0:00:20  0:00:06  0:00:14 1156k 37 20.9M   37 8111k    0     0  1092k      0  0:00:19  0:00:07  0:00:12 1170k 44 20.9M   44 9519k    0     0  1129k      0  0:00:18  0:00:08  0:00:10 1230k 51 20.9M   51 10.8M    0     0  1175k      0  0:00:18  0:00:09  0:00:09 1323k 59 20.9M   59 12.4M    0     0  1224k      0  0:00:17  0:00:10  0:00:07 1429k 67 20.9M   67 14.1M    0     0  1272k      0  0:00:16  0:00:11  0:00:05 1538k 76 20.9M   76 16.1M    0     0  1330k      0  0:00:16  0:00:12  0:00:04 1686k 89 20.9M   89 18.6M    0     0  1425k      0  0:00:15  0:00:13  0:00:02 1925k100 20.9M  100 20.9M    0     0  1520k      0  0:00:14  0:00:14 --:--:-- 2215k
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 5s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 7.19.1 -> 7.24.1
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.24.1>
+npm notice Run `npm install -g npm@7.24.1` to update!
+npm notice 
+
+changed 15 packages, and audited 246 packages in 6s
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+1 high severity vulnerability
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+> Soft-Shadow@1.0.0 start
+> node index.js
+
+Soft Music is connected to discord!

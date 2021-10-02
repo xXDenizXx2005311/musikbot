@@ -1,0 +1,28 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  6 20.9M    6 1295k    0     0  1111k      0  0:00:19  0:00:01  0:00:18 1110k 14 20.9M   14 3103k    0     0  1449k      0  0:00:14  0:00:02  0:00:12 1449k 24 20.9M   24 5344k    0     0  1674k      0  0:00:12  0:00:03  0:00:09 1673k 34 20.9M   34 7311k    0     0  1767k      0  0:00:12  0:00:04  0:00:08 1766k 42 20.9M   42 9119k    0     0  1772k      0  0:00:12  0:00:05  0:00:07 1840k 52 20.9M   52 10.9M    0     0  1813k      0  0:00:11  0:00:06  0:00:05 1977k 61 20.9M   61 12.8M    0     0  1841k      0  0:00:11  0:00:07  0:00:04 2009k 71 20.9M   71 14.9M    0     0  1873k      0  0:00:11  0:00:08  0:00:03 2002k 81 20.9M   81 17.0M    0     0  1905k      0  0:00:11  0:00:09  0:00:02 2019k 90 20.9M   90 18.8M    0     0  1903k      0  0:00:11  0:00:10  0:00:01 2037k 97 20.9M   97 20.4M    0     0  1878k      0  0:00:11  0:00:11 --:--:-- 1958k100 20.9M  100 20.9M    0     0  1870k      0  0:00:11  0:00:11 --:--:-- 1920k
+npm WARN deprecated node-pre-gyp@0.17.0: Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future
+
+added 67 packages, and audited 68 packages in 2s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice 
+npm notice New minor version of npm available! 7.19.1 -> 7.20.6
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.20.6>
+npm notice Run `npm install -g npm@7.20.6` to update!
+npm notice 
+
+removed 2 packages, changed 15 packages, and audited 246 packages in 4s
+
+38 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> Soft-Shadow@1.0.0 start
+> node index.js
+
+Anime Bot is connected to discord!
